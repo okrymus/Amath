@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CIT285_GroupProject_EasyGroup_Amath.jnlp">
+  <information>
+    <title>CIT285_GroupProject_EasyGroup_Amath</title>
+    <vendor>Jung</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CIT285_GroupProject_EasyGroup_Amath.jar" size="2559071" download="eager" />
+    <jar href="lib/activation.jar" size="56290" download="eager" />
+    <jar href="lib/mail.jar" size="521000" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.17-bin.jar" size="855948" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CIT285_GroupProject_EasyGroup_Amath" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Project_Login.UserIDClient"  name="CIT285_GroupProject_EasyGroup_Amath" />
+  <update check="always"/>
+</jnlp>

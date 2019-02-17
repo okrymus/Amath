@@ -1,0 +1,68 @@
+.root {
+    -fx-font-size: 16;
+    -fx-font-weight: 800;
+    -fx-background-color: white;
+}
+
+.label .text {
+    -fx-font-size: 15;
+    -fx-fill: white;
+}
+
+
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(deepskyblue, black);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 2 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(blue, black);
+}
+
+.button:pressed {
+     -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 4 );
+ }
+
+.hyperlink {
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
+
+.my-button:hover {
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 20 );
+}
+
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.myimage {
+    -fx-effect: dropshadow(three-pass-box, white, 10, 0, 0, 0);
+}
+
+.logout {
+    -fx-background-color: transparent;
+}
+
+.logout:hover {
+    -fx-background-color: transparent;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 20 );
+}
